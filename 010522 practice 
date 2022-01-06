@@ -1,0 +1,23 @@
+## I will be practicing a bit of Python to revisit some key concepts##
+
+##Will start off with something simple as a greeting##
+
+greeting= "Hello World"
+print (greeting)
+
+##Lets practice Changing Cases## 
+
+#This shows the name all in Upper Case#
+
+name= "cory kenshin"
+print (name.upper())
+
+#Since I already created a variable, lets display it as a Lower Case#
+
+print (name.lower())
+
+#Now, lets only capitalize the First and Last Name#
+
+print (name.title())
+
+#So, I got distracted with a Django tutorial so I have to end it here 
