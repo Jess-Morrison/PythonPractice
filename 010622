@@ -62,3 +62,11 @@ print( port_a.title()+ "" + port_b.title())
 
 print (port_a.title()+ "" +port_b.lower())
 
+#Now lets practice Newlines and Tags 
+
+print ("Cookies: \nGingerbread, \nSugar, \nChocochip")
+
+print ("Cookies: \n\tGingerbread, \n\tSugar, \n\tChocochip")
+
+#Lets mess with some Integers 
+
