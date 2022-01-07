@@ -1,0 +1,64 @@
+# Its Jan 6 and its time to do some more coding 
+
+# I am going to start off with some more Changing Case practice 
+
+#Create a Variable 
+
+dreamcar= ("corvette stingray")
+
+# Lets Capitalize the first letters of the brand and model name 
+
+print (dreamcar.title()) 
+
+#Now Lets Capitalize all of the letters
+
+print (dreamcar.upper()) 
+
+#And lets put all letters in lowercase 
+
+print (dreamcar.lower()) 
+
+# Going to practice somemore 
+
+bookcharcter= ("jo march ")
+
+print (bookcharcter.upper())
+
+print (bookcharcter.lower())
+
+print (bookcharcter.title())
+
+#Now lets try to Concat 
+
+firstname= ("jo")
+lastname= ("march")
+
+print (firstname)
+print (lastname)
+
+print(firstname.title())
+
+print(lastname.title())
+
+print(firstname.title() + " " + lastname.title())
+
+brandname=("ford")
+
+modelname=("bronco")
+
+print (brandname.title()+ " " +modelname.title()) 
+
+print (brandname.upper()+ " " +modelname.upper())
+
+print (brandname.lower()+ " " +modelname.lower())
+
+#Now lets combine 
+
+port_a= ("poke")
+
+port_b= ("mon") 
+
+print( port_a.title()+ "" + port_b.title())
+
+print (port_a.title()+ "" +port_b.lower())
+
