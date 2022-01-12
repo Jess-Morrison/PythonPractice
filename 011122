@@ -1,0 +1,52 @@
+#Hello again, I cant practice too much tonight but I am going to dabble 
+# with some Lists
+
+cookies= ['Sugar', 'Chocochip', 'Gingerbread']
+
+print(cookies)
+
+#Lets see if I can grab Chocochip from the list 
+
+print(cookies[1])
+
+#I am going to grab some Sugar cookies 
+
+print(cookies[0])
+
+#Lets put the Gingerbread in lowercase 
+
+print(cookies[2].lower())
+
+#Now lets try to make all the cookies lower case 
+
+print(cookies[0].lower())
+print(cookies[1].lower())
+print(cookies[2].lower())
+
+#So, dont tell my family but, I'm not a huge Gingerbread fan
+#So lets cut it from the list 
+
+del(cookies[2])
+print(cookies)
+
+#It had to be done...but lets add Oatmeal
+
+cookies.append('Oatmeal')
+print(cookies)
+
+#I actually want to add Oatmeal to the front of the list 
+
+cookies.insert(0, 'Oatmeal')
+print(cookies)
+
+# I didnt mean to add Oatmeal twice, so lets delete the Oatmeal on the end
+
+cookies.pop()
+print(cookies)
+
+#Sugar cookies can be a bit sweet, so I have to take it off 
+
+cookies.pop(1)
+print(cookies)
+
+#Have to end it here but I will be back at it 
