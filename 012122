@@ -51,3 +51,74 @@ pettingZoos=("Alligators", "Crocs", "Bears")
 for pettingZoo in pettingZoos:
     print("\nYou may not want to go to the petting zoo down " + 
     "the street since they have: " + pettingZoo)
+
+#Now lets work on some If Else statements 
+
+cookies= ['Chocochip']
+
+if cookies == ['Chocochip']:
+        print("My favorite cookie is Chocolate Chip")
+else:
+        print('I\'m not much of a cookie person')
+
+sweets= ['Sugar']
+
+if sweets != ['Sugar']:
+        print("\nMy favorite cookie is Sugar")
+else:
+        print('I\'m not much of a cookie person')
+
+#Lets do another 
+
+runnerAge = 18
+earlyRunner = True
+
+if runnerAge == 19 and earlyRunner == True :
+    print ("Welcome to the Race!")
+
+else:
+    print ("Sorry, please sign up for the next race.")
+
+
+#Lets add an Elif
+#Lets see what msg an older voter gets 
+
+voter = 55
+
+if voter >=18:
+    print("Lets Vote!")
+
+elif voter == 17:
+    print ("You got one more year!")
+
+else:
+    print("You\'re time will come!")
+
+#Lets see what msg a minor will get 
+
+voter = 15
+
+if voter >=18:
+    print("Lets Vote!")
+
+elif voter == 17:
+    print ("You got one more year!")
+
+else:
+    print("You\'re time will come!")
+
+#How about someone who is 17?
+
+voter = 17
+
+if voter >=18:
+    print("Lets Vote!")
+
+elif voter == 17:
+    print ("You got one more year!")
+
+else:
+    print("You\'re time will come!")
+
+
+#Thats it for tonight 
