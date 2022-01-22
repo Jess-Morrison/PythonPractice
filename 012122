@@ -1,0 +1,53 @@
+# Hello again! I recently started learning Javascript but I am back at 
+#practicing python 
+
+#Lets create a Tuple 
+
+cookies= ("Chocochip", "Sugar", "Oatmeal")
+
+#Lets print out Chocolate Chip cookies  
+
+print(cookies[0]) 
+
+#Lets print out all the cookies 
+
+print(cookies) 
+
+#Lets loop through the whole list 
+
+for cookie in cookies :
+    print (cookie)
+
+#Lets now change the cookies 
+
+cookies=("Chocochip", "Sugar", "Oatmeal")
+print("\nOriginal Cookies:")
+
+for cookie in cookies:
+    print(cookie)
+
+cookies=("Gingerbread","Toffee", "S\'more")
+print("\nNew cookies:")
+
+for cookie in cookies: 
+    print(cookie)
+
+#Lets practice some more 
+
+pettingZoos= ("Goat","Lamb", "Llama")
+
+print(pettingZoos)
+
+print("My favorite animal at the petting zoo is a :" + pettingZoos[2])
+
+print("My first favorite pet at the zoo is a : " + pettingZoos[2],
+"\nMy second favorite is a : " + pettingZoos[1])
+
+for pettingZoo in pettingZoos:
+    print("Here is an animal at the petting zoo: " + pettingZoo)
+
+pettingZoos=("Alligators", "Crocs", "Bears")
+
+for pettingZoo in pettingZoos:
+    print("\nYou may not want to go to the petting zoo down " + 
+    "the street since they have: " + pettingZoo)
